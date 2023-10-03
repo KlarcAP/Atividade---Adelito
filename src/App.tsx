@@ -1,11 +1,11 @@
-import { FC } from 'react';
+import React from 'react';
 import './style.css';
-import form from './componentes/formulário/form';
+import Formulario from './componentes/formulário/form';
 
 function App() {
   return
   <div> 
-      <form />
+      <Formulario />
   </div>
   
 }
