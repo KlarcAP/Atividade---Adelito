@@ -3,10 +3,9 @@ import './style.css';
 import Formulario from './componentes/formulário/form';
 
 function App() {
-  return
-  <div> 
-      <Formulario />
-  </div>
+  return(
+    <Formulario/>
+  )
   
 }
 
