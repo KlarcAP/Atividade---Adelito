@@ -5,7 +5,7 @@ import Formulario from './componentes/formulário/formulario';
 function App() {
   return
   <div> 
-      <Formulario />;
+      <Formulario />
   </div>
   
 }
