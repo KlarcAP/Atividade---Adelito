@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Formulario from './componentes/formulário/form';
+import Formulario from './componentes/formulario/form';
 
 function App() {
   return(
