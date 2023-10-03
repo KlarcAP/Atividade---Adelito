@@ -1,4 +1,7 @@
 import React from 'react';
 
+const Botao = () => {
+  <button>Criar</button>;
+};
 
-const Botao
+export default Botao;
