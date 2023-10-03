@@ -1,27 +1,30 @@
 import React from 'react'
 
-const form = () => {
+const  Formulario = () =>{
   return(
     <div>
       <form>
         <div>
-          <label htmlFor ="tarefa"> Tarefa </label>
+          <label htmlFor="Tarefa"></label>
         </div>
         <div>
-          <input type="text" name="Tarefa" id="tarefa" placeholder="O que voçe vai fazer hoje?" required/>
+          <input type="text" 
+            name = "tarefa"
+            id = "tarefa"
+            placeholder = "Informe a tarefa"
+            required
+            />
         </div>
         <div>
-          <label htmlFor="tempo"> Tempo </label>
+          <label htmlFor="tempo"></label>
         </div>
-        <div> 
-          <input type="time" step = {1} name="tempo" id="tempo" min='00:00:00' max='00:00:00'/>
+        <div>
+          <input type="time" name= 'time' step= '1' id='time' min = '00:00' max = '00:00:00'/>
+           
         </div>
-      </form>    
-    </div>
+      </form>
+      </div>
   )
-  
 }
 
-
-
-export default form;
+export default Formulario;
