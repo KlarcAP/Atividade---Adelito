@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Formulario = () => {
+const form = () => {
   return(
     <div>
       <form>
@@ -24,6 +24,4 @@ const Formulario = () => {
 
 
 
-export default Formulario;
-
-
+export default form;
